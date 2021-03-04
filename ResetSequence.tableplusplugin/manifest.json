@@ -1,0 +1,23 @@
+{
+    "name": "Reset Sequence",
+    "identifier": "com.hcancelik.TablePlus.ResetSequence",
+    "version": "1.0",
+    "detail": "Reset sequence of the selected table",
+    "author": "Hikmet Can Celik",
+    "site": "https://github.com/hcancelik/reset-sequence-tableplus",
+    "email": "celik@me.com",
+    "scripts": [
+        {
+            "location": "item",
+            "type": "separator"
+        },
+        {
+            "name": "Reset Sequence",
+            "location": "item",
+            "type": "action",
+            "script": "plugin.js",
+            "handler": "reset",
+            "name": "Reset Sequence"
+        }
+    ]
+}
